@@ -1,0 +1,53 @@
+  <div id="header">
+    <div id="headerRegenbogen">
+      <div id="headerBeige"></div>
+      <div id="headerGelb"></div>
+      <div id="headerOrange"></div>
+      <div id="headerGruen"></div>
+      <div id="headerLila"></div>
+      <div id="headerBlau"></div>
+    </div>
+    <div id="headerLogo">
+      <img id="headerImg" src={image} />
+    </div>
+  </div>
+    <div id="mainBody">
+      <div id="linkeSeite">
+        <h1 id="titel">Generieren</h1>
+        <p id="paragraph">
+          Generiere dein persönliches Galaxus Werberplakat.
+        </p>
+        <div>
+          <label id="label">Galaxus für...</label>
+          <br />
+          <input
+            id="textFeld"
+            type="text"
+            name="slogan"
+            placeholder="dein eigener Slogan..."
+          />
+        </div>
+        <div>
+          <label id="label">Galaxus Produkt Link</label>
+          <br />
+          <input
+            id="textFeld"
+            type="text"
+            name="link"
+            placeholder="https://www.galaxus.ch/de/s3/product/..."
+
+          />
+        </div>
+        <button id="generieren">Generieren</button>
+      </div>
+      <div id="rechteSeite">
+        <h1 id="titel">Vorschau</h1>
+        <p id="paragraph">So könnte dein Plakat aussehen.</p>
+        <img id="plakat" src={image} />
+        <p id="paragraph">https://www.galaxus.ch/de/s3/product/...</p>
+        <div id="buttonGroup">
+          <button id="button">Link Kopieren</button>
+          <button id="button">Herunterladen</button>
+        </div>
+      </div>
+    </div>
